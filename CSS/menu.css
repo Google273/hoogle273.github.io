@@ -2,12 +2,12 @@ body {
     font-family: "Arial", "sans-serif";
     padding: 0;
     margin: 0;
-    overflow-x:hidden;
+    overflow-x:fixed;
 }
 
 header {
     background:url("../IMG/Background.png") center no-repeat ;
-    height: 70px;
+    height: 700px;
     width: auto;
     padding: 0;
     margin: 0;
@@ -232,11 +232,18 @@ footer h1 {
 
 }
 @media(min-width:0) and (max-width:320px) {
-    body {
-    margin: 0;
-    padding: 0;
-    overflow-x:hidden;
-    }
+    html {
+
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+}
+    
+      body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+}
     
 header {
     background:url("../IMG/Background.png") center no-repeat ;
@@ -321,12 +328,18 @@ header {
 }
 }
 @media(min-width:321px) and (max-width:420px) {
-    body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    overflow-x:hidden;
-    }
+    html {
+
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+}
+    
+      body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+}
     
 header {
     background:url("../IMG/Background.png") center no-repeat ;
@@ -424,11 +437,18 @@ header {
     }
 }
 @media(min-width:421px) and (max-width:520px) {
-    body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    }
+    html {
+
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+}
+    
+      body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+}
     
 header {
     background:url("../IMG/Background.png") center no-repeat ;
@@ -531,11 +551,18 @@ header {
     }
 }
 @media(min-width:521px) and (max-width:620px) {
-    body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    }
+    html {
+
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+}
+    
+      body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+}
     
 header {
     background:url("../IMG/Background.png") center no-repeat ;
